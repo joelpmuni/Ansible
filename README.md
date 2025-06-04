@@ -143,6 +143,9 @@ Install the required network modules (e.g., Cisco):
 ```bash
 ansible-galaxy collection install cisco.ios
 
+
+
+
 --------------------------------------------------------------------------------------------
 
 **Step-by-step procedure** for using **Ansible for network automation** to update configurations on **routers, switches, firewalls, or other network devices**. This approach is modular, scalable, and follows best practices used in large NRE or infrastructure teams.
@@ -171,6 +174,9 @@ ansible-galaxy collection install cisco.ios
 │ (Switches, Routers,     │
 │  Firewalls, etc.)       │
 └────────────────────────┘
+
+
+
 
 ## 🔁 **Step-by-Step Procedure**
 ### **1. Set Up Your Environment**

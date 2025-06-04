@@ -142,14 +142,8 @@ ansible-playbook -i inventory/hosts.yaml playbooks/provision_switch.yml
 Install the required network modules (e.g., Cisco):
 ```bash
 ansible-galaxy collection install cisco.ios
-
-
-
-
 --------------------------------------------------------------------------------------------
-
 **Step-by-step procedure** for using **Ansible for network automation** to update configurations on **routers, switches, firewalls, or other network devices**. This approach is modular, scalable, and follows best practices used in large NRE or infrastructure teams.
-
 ## 🏗️ **Architecture Overview**
 ┌────────────────────────┐
 │      Source of Truth   │
@@ -175,15 +169,12 @@ ansible-galaxy collection install cisco.ios
 │  Firewalls, etc.)       │
 └────────────────────────┘
 
-
-
-
+```
 ## 🔁 **Step-by-Step Procedure**
 ### **1. Set Up Your Environment**
 ✅ **Install Ansible:**
 ```bash
 pip install ansible
-```
 ✅ **Install vendor-specific collections:**
 ```bash
 ansible-galaxy collection install cisco.ios
